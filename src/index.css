@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+html,
+body {
+  scroll-behavior: auto;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  cursor:none;
+  margin: 0;
+  background: #faf8ff;
+  color: #18181b;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+body{
+  cursor:none;
+}
+
+button,
+a{
+  cursor:none;
+}
