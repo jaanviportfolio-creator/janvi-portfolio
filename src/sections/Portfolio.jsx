@@ -3,36 +3,7 @@ import { FaPlay } from "react-icons/fa";
 import { useRef } from "react";
 
 const projects = [
-  {
-    title: "Starbucks Commercial",
-    category: "Commercial",
-    video: "/videos/1.mp4",
-  },
-  {
-    title: "Instagram Reel",
-    category: "Social Media",
-    video: "/videos/2.mp4",
-  },
-  {
-    title: "Travel Cinematic",
-    category: "Travel",
-    video: "/videos/3.mp4",
-  },
-  {
-    title: "Product Advertisement",
-    category: "Advertisement",
-    video: "/videos/4.mp4",
-  },
-  {
-    title: "Luxury Edit",
-    category: "Luxury",
-    video: "/videos/5.mp4",
-  },
-  {
-    title: "Advertisement",
-    category: "Real State",
-    video: "/videos/6.mp4",
-  },
+ 
 ];
 
 export default function Portfolio() {
