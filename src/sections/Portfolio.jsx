@@ -4,33 +4,33 @@ import { useRef } from "react";
 
 const projects = [
  {
-    title: "",
-    category: "",
+    title: ,
+    category:,
     video: "/videos/1.mp4",
   },
   {
-    title: "Instagram Reel",
-    category: "Social Media",
+    title:,
+    category: ,
     video: "/videos/2.mp4",
   },
   {
-    title: "Travel Cinematic",
-    category: "Travel",
+    title: ,
+    category: ,
     video: "/videos/3.mp4",
   },
   {
-    title: "Product Advertisement",
-    category: "Advertisement",
+    title:,
+    category: ,
     video: "/videos/4.mp4",
   },
   {
-    title: "Luxury Edit",
-    category: "Luxury",
+    title: ,
+    category:,
     video: "/videos/5.mp4",
   },
   {
-    title: "Advertisement",
-    category: "Real State",
+    title: ,
+    category: ,
     video: "/videos/6.mp4",
   },
 ];
