@@ -3,7 +3,30 @@ import { FaPlay } from "react-icons/fa";
 import { useRef } from "react";
 
 const projects = [
- 
+ {
+   
+    video: "/videos/1.mp4",
+  },
+  {
+    
+    video: "/videos/2.mp4",
+  },
+  {
+    
+    video: "/videos/3.mp4",
+  },
+  {
+  
+    video: "/videos/4.mp4",
+  },
+  {
+   
+    video: "/videos/5.mp4",
+  },
+  {
+    
+    video: "/videos/6.mp4",
+  },
 ];
 
 export default function Portfolio() {
