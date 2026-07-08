@@ -4,10 +4,11 @@ import { useRef } from "react";
 
 const projects = [
  {
-    title: ,
-    category:,
-    video: "/videos/1.mp4",
-  },
+  title:,
+  category: ,
+  thumbnail: "https://img.youtube.com/vi/09W5mSCyK2M/maxresdefault.jpg",
+  youtube: "https://www.youtube.com/embed/09W5mSCyK2M",
+},
   {
     title:,
     category: ,
