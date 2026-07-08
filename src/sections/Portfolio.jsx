@@ -9,11 +9,7 @@ const projects = [
   thumbnail:"https://img.youtube.com/vi/09W5mSCyK2M/hqdefault.jpg",
   youtube: "https://www.youtube.com/embed/09W5mSCyK2M",
 },
-  {
-    
-    thumbnail: "https://img.youtube.com/vi/09W5mSCyK2M/maxresdefault.jpg",
-    youtube: "https://www.youtube.com/watch?v=09W5mSCyK2M"
-  },
+  
   {
     thumbnail: "https://img.youtube.com/vi/Obsxhxig5HQ/hqdefault.jpg",
 
