@@ -6,7 +6,7 @@ const projects = [
  {
   title:,
   category: ,
-  thumbnail: "https://img.youtube.com/vi/09W5mSCyK2M/maxresdefault.jpg",
+  thumbnail:"https://img.youtube.com/vi/09W5mSCyK2M/hqdefault.jpg",
   youtube: "https://www.youtube.com/embed/09W5mSCyK2M",
 },
   {
