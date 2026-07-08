@@ -8,15 +8,18 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
+import {
+  FaL,
+  FaLinkedin,
+  FaXTwitter,
+} from "react-icons/fa6";
+
 const socials = [
   {
     icon: <FaInstagram />,
     link: "https://www.instagram.com/janvi__str?igsh=MTNlZ2g0MjJrYmdleQ==",
   },
-  {
-    icon: <FaYoutube />,
-    link: "#",
-  },
+  
   {
     icon: <FaWhatsapp />,
     link: "https://wa.me/916354281629",
@@ -25,6 +28,14 @@ const socials = [
     icon: <FaEnvelope />,
     link: "mailto:janviiiisuthar@gmail.com",
   },
+  {
+    icon : <FaXTwitter/>,
+    link:"https://x.com/janvu27",
+  },
+  {
+    icon : <FaLinkedin/>,
+    link:"https://www.linkedin.com/in/janvi-suthar-a5096037b/"
+  }
 ];
 
 export default function Contact() {
@@ -154,7 +165,7 @@ export default function Contact() {
                 Follow me or reach out on your favorite platform.
               </p>
 
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-5 mt-8">
+              <div className="grid grid-cols-3 gap-5 mt-8">
 
                 {socials.map((social, index) => (
                   <motion.a

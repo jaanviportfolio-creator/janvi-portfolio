@@ -2,8 +2,15 @@ import { motion } from "framer-motion";
 import {
   FaInstagram,
   
-  FaYoutube,
+  FaLinkedin,
+  
+  FaTwitter,
+  
+  FaWhatsapp,
+  
+  FaEnvelope,
 } from "react-icons/fa";
+import { FaTwitch } from "react-icons/fa6";
 
 const links = [
   "About",
@@ -15,8 +22,10 @@ const links = [
 
 const socials = [
   { icon: <FaInstagram />, href: "https://www.instagram.com/janvi__str?igsh=MTNlZ2g0MjJrYmdleQ==" },
- 
-  { icon: <FaYoutube />, href: "#" },
+  { icon: <FaWhatsapp />, href:"https://wa.me/916354281629" },
+  { icon: <FaTwitter />, href:"https://x.com/janvu27" },
+  { icon: <FaLinkedin/>, href:"https://www.linkedin.com/in/janvi-suthar-a5096037b/" },
+  { icon: <FaEnvelope />, href:"mailto:saaanvisuthar2020@gmail.com" }
 ];
 
 export default function Footer() {
@@ -109,31 +118,7 @@ export default function Footer() {
 
               </div>
 
-              <button
-                className="mt-8 w-full sm:w-auto px-8 py-4 rounded-full bg-violet-600 text-white font-semibold hover:bg-violet-700 transition"
-              >
-                <a
-  href="/files/Janvi_Resume.pdf"
-  download
-  className="
-    mt-5
-    inline-flex
-    items-center
-    justify-center
-    px-8
-    py-4
-    rounded-full
-    bg-violet-600
-    text-white
-    font-semibold
-    hover:bg-violet-700
-    transition
-  "
->
-  Download Resume
-</a>
-                
-              </button>
+              
 
             </div>
 

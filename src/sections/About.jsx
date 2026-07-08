@@ -28,11 +28,7 @@ export default function About() {
       label: "Profession",
       value: "Video Editor",
     },
-    {
-      icon: <FaClock className="text-violet-600" />,
-      label: "Availability",
-      value: "Freelance",
-    },
+    
   ];
 
   return (
