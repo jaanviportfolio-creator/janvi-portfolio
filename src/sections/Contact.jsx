@@ -23,7 +23,7 @@ const socials = [
   },
   {
     icon: <FaEnvelope />,
-    link: "mailto:saaanvisuthar2020@gmail.com",
+    link: "mailto:janviiiisuthar@gmail.com",
   },
 ];
 
@@ -179,13 +179,13 @@ export default function Contact() {
               <div className="mt-8">
 
                 <a
-                  href="mailto:saaanvisuthar2020@gmail.com"
+                  href="mailto:janviiiisuthar@gmail.com"
                   className="flex items-center gap-3 text-gray-700 hover:text-violet-600 transition"
                 >
                   <FaEnvelope className="text-violet-600 text-xl" />
 
                   <span className="font-medium">
-                    saaanvisuthar2020@gmail.com
+                    janviiiisuthar@gmail.com
                   </span>
 
                 </a>
